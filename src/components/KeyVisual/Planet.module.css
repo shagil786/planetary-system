@@ -1,0 +1,54 @@
+.containerStyle {
+    color: #fff;
+    height: fit-content;
+    min-width: 280px;
+    filter: drop-shadow(0 0 0.75rem #070722);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.eachCard {
+    display: flex;
+    padding: 4px 0px;
+}
+
+.eachCard h4,
+.eachCard span {
+    width: 50%;
+}
+
+.containerStyle h1 {
+    text-align: center;
+}
+
+.leftIcon {
+    position: fixed;
+    color: hsl(0, 0%, 100%);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.rightIcon {
+    position: fixed;
+    color: hsl(0, 0%, 100%);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}

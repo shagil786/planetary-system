@@ -1,0 +1,44 @@
+.containerStyle {
+    color: hsl(0, 0%, 100%);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.eachContainer {
+    display: flex;
+    width: 100%;
+}
+
+.eachContainer p {
+    width: 50%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eachContainer p:last-of-type {
+    margin-left: 4px;
+}
+
+.cardStyle {
+    width: 280px;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid rgba(102, 166, 229, 0.12);
+    height: fit-content;
+    backdrop-filter: blur(40px) saturate(150%) contrast(100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 10px;
+}
+
+.cardStyle:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
